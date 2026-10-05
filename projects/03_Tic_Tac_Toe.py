@@ -1,6 +1,7 @@
 # GUI(graphical user interface) based game for better user experience
 import tkinter as tk
 from tkinter import messagebox
+import os
 
 # Now we create a list from 0 to 8 and it is known as combo.
 
