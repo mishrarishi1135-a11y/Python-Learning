@@ -43,7 +43,7 @@ def start_slideshow():
     for _ in range(len(image_paths)):
         update_image()
 
-# Now create a button
+# Now create a button add it to the root window which will start the slide show when clicked.
 play_button = tk.Button(root, text='Play Slideshow', command=start_slideshow)
 play_button.pack()
 
