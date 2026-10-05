@@ -6,6 +6,7 @@ import tkinter as tk
 from itertools import cycle
 from PIL import Image, ImageTk
 import time
+import os
 
 # now we create a root window in which we show the slide show.
 root = tk.Tk()
